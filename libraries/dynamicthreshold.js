@@ -26,7 +26,7 @@ function dynamicThreshold(_n, _difficulty) {
         if (val && !isNaN(val)) {
             values.push(val);
         }
-
+        
         while (values.length > n) {
             values.shift();
         }
